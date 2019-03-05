@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1545195837334" createdUser="rajanikumari.v" id="24d1ab16:167c176eb1a:-7b34" type="simple_test_data" updatedTimestamp="1545725939178" updatedUser="rajanikumari.v" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig autoMapColumns="true" columnCount="2" datasourceType="Delimited" escapeQuotedString="true" hasColumnNamesLine="true" linesBeforeColumnNames="0" linesToSkip="0" location="D:/AddNum.csv" loop="false" paddingChar="" parsingType="OffsetLength" separator="," treatEmptyStringAsNull="false" treatTextAsEmpty="false" treatTextAsEmptyValue="" treatTextAsNull="false" treatTextAsNullValue="" trim="false"/>
+</editableResource>
