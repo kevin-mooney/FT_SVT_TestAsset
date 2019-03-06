@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1545123643172" createdUser="rajanikumari.v" id="220bc60b:167c08493b8:-7e78" selfDescribing="ap-wft-win20.nonprod.hclpnp.com (10.115.83.208)" type="host_machine_resource" updatedTimestamp="1545123643172" updatedUser="rajanikumari.v" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig host_address="10.115.83.208" user_host_name="ap-wft-win20.nonprod.hclpnp.com">
+      <roles>
+         <identity name="ssh" port="22"/>
+      </roles>
+   </resourceConfig>
+</editableResource>
