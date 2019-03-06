@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="NB3C94E0000311E9B3098E6957892307" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/FirstDummyProject/Tests/FirstDummyTest.testsuite"/><test path="/PerfPrj/Tests/RTWProject/Tests/aries-web.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>
