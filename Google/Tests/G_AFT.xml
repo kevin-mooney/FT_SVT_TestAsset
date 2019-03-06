@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="N3A5B7600FEB11E9A3A6C13C08F4105A" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/Google/Tests/test3.testsuite"/><test path="/Google/Tests/wiki.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>
