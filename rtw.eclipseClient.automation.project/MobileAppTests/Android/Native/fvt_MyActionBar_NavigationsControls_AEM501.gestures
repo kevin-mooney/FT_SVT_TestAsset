@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gestureLibrary version="0" width="0" height="0">
+	<view x="0" y="0" width="0" height="0" screenIsRotated="false"  uid="59a9c0a9-f244-4b89-9ccf-c95aa8d57d5a" />
+	<gesture name="Motion 0" description="Motion 0" startTime="250343"  viewUid="59a9c0a9-f244-4b89-9ccf-c95aa8d57d5a"  uid="cb8cec72-d4d9-4f0a-a63e-ffcfa45d2b04">
+		<line id="0" startTime="0"  >
+			<point x="29" y="30" action="0" time="0" />
+			<point x="29" y="30" action="1" time="97" />
+		</line>
+	</gesture>
+	<gesture name="Motion 1" description="Motion 1" startTime="257009"  viewUid="59a9c0a9-f244-4b89-9ccf-c95aa8d57d5a"  uid="9cf59e70-ddc4-4df3-a556-d2bb0f6c5787">
+		<line id="0" startTime="0"  >
+			<point x="31" y="37" action="0" time="0" />
+			<point x="31" y="37" action="1" time="136" />
+		</line>
+	</gesture>
+	<gesture name="Motion 2" description="Motion 2" startTime="317071"  viewUid="59a9c0a9-f244-4b89-9ccf-c95aa8d57d5a"  uid="8e9435a5-bde3-4be8-9a22-c1692cfa8f0e">
+		<line id="0" startTime="0"  >
+			<point x="31" y="22" action="0" time="0" />
+			<point x="31" y="22" action="1" time="99" />
+		</line>
+	</gesture>
+	<gesture name="Motion 3" description="Motion 3" startTime="322638"  viewUid="59a9c0a9-f244-4b89-9ccf-c95aa8d57d5a"  uid="68d48757-6f7f-459a-92f3-493c64ad242d">
+		<line id="0" startTime="0"  >
+			<point x="28" y="17" action="0" time="0" />
+			<point x="28" y="17" action="1" time="84" />
+		</line>
+	</gesture>
+	<gesture name="Motion 4" description="Motion 4" startTime="327878"  viewUid="59a9c0a9-f244-4b89-9ccf-c95aa8d57d5a"  uid="c603dcb3-d501-4357-bbb1-8e962ef88350">
+		<line id="0" startTime="0"  >
+			<point x="42" y="32" action="0" time="0" />
+			<point x="42" y="31" action="2" time="15" />
+			<point x="42" y="31" action="1" time="79" />
+		</line>
+	</gesture>
+</gestureLibrary>
