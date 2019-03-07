@@ -1,0 +1,2 @@
+EngineName,UserID,Password,HostName,PortNumber,DatabaseUserID,DatabasePassword,WSName,DAName
+LocalHost,twsuser,Hclrome00,10.14.36.223,31116,db2inst1,Hclrome00,EU-HWS-LNX104,EU-HWS-LNX104_1
