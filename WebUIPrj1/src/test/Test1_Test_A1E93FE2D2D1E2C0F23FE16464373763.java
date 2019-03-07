@@ -134,8 +134,8 @@ this.addEventBehavior(new RPTEventStructure(new MoebActionFailedEvent(), new RPT
 		DatapoolAction dpAction = new DatapoolAction(parent, "DS1.csv", "A1E93FE46FCF49E0F23FE16464373763", false);
 		Datapool dp = new Datapool(
 				 "/L1dlYlVJUHJqMS9EUzEuY3N2.csv",
-				 "D:\\Workspace_RTWW\\10.0\\ws4\\WebUIPrj1\\DS1.csv",
-				 1,
+				 "C:\\Users\\navanits.NONPROD\\git\\repository4\\WebUIPrj1\\DS1.csv",
+				 0,
 				 true,
 				 false,
 				 Datapool.SEQUENTIAL,
@@ -148,7 +148,7 @@ this.addEventBehavior(new RPTEventStructure(new MoebActionFailedEvent(), new RPT
 private VariableAction varAction_1(final IContainer parent) {
 
 	VariableAction vc = new VariableAction(parent, "", "A1E93FE2D2D1E2DEF23FE16464373763");	
-			vars[0] = new DataVar("RTW_WebUI_Browser_Selection", "Chrome", IDataArea.VIRTUALUSER, "IGNORE", false, false);
+			vars[0] = new DataVar("RTW_WebUI_Browser_Selection", "Firefox", IDataArea.VIRTUALUSER, "IGNORE", false, false);
 
 	
 		vars[1] = new DataVar("ReturnbyCustomJS", "", IDataArea.TEST, "IGNORE", false, false);
@@ -348,13 +348,13 @@ private AssignVariableAction dataVarAssign_1(final IContainer parent) {
 		MoebStepBatchAction stepBatch = new MoebStepBatchAction(parent,
 												  "Custom Code (JavaScript)",
 												  "A1E93FEF6EE92EA0F23FE16464373763",
-												  "{\"variables\":[{\"id\":\"10\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceVariable\",\"value\":\"javascriptmethodarg0\",\"key\":\"MOEB_FIELD\\/TPM:A1E9402D391D7A92F23FE16464373763\"},{\"id\":\"11\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceVariable\",\"key\":\"ReturnbyCustomJS\"}],\"id\":\"0\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceTestSteps\",\"steps\":[{\"revealPref\":\"true\",\"description\":\"Custom Code (JavaScript)\",\"to_overriden\":false,\"application_uid\":\"a5fc1322-46ad-4c76-bb3a-463f358a81de\",\"timeout\":0,\"screenshotPref\":\"ALL\",\"uid\":\"A1E93FEF6EE92EA0F23FE16464373763\",\"substitutionParameters\":[{\"name\":\"javascriptmethodarg0\",\"variableKey\":\"MOEB_FIELD\\/TPM:A1E9402D391D7A92F23FE16464373763\",\"id\":\"2\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TString\",\"value\":\"javascriptmethodarg0\"}],\"isWeb\":true,\"action\":{\"id\":\"3\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceAction\",\"type\":\"webuijscustomcode\",\"parameters\":[{\"name\":\"javascriptmethodargslength\",\"id\":\"4\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TString\",\"value\":\"1\"},{\"$ref\":\"2\"},{\"name\":\"javascript\",\"id\":\"5\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TString\",\"value\":\"function useDS(searchText){\\\\\\r\\\\\\n  return searchText;\\\\\\r\\\\\\n}\"},{\"name\":\"javascriptmethod\",\"id\":\"6\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TString\",\"value\":\"useDS\"},{\"name\":\"javascriptmethoddescription\",\"id\":\"7\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TString\"},{\"name\":\"retry\",\"id\":\"8\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TBoolean\",\"value\":\"true\"},{\"name\":\"varkey\",\"id\":\"9\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TString\",\"value\":\"ReturnbyCustomJS\"}]},\"sync_policy\":\"DEFAULT\",\"id\":\"1\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceHWActionStep\"}],\"timeout\":10}",
+												  "{\"variables\":[{\"id\":\"10\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceVariable\",\"value\":\"javascriptmethodarg0\",\"key\":\"MOEB_FIELD\\/TPM:A1E940A6C5696BC2F23FE16464373763\"},{\"id\":\"11\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceVariable\",\"key\":\"ReturnbyCustomJS\"}],\"id\":\"0\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceTestSteps\",\"steps\":[{\"revealPref\":\"true\",\"description\":\"Custom Code (JavaScript)\",\"to_overriden\":false,\"application_uid\":\"a5fc1322-46ad-4c76-bb3a-463f358a81de\",\"timeout\":0,\"screenshotPref\":\"ALL\",\"uid\":\"A1E93FEF6EE92EA0F23FE16464373763\",\"substitutionParameters\":[{\"name\":\"javascriptmethodarg0\",\"variableKey\":\"MOEB_FIELD\\/TPM:A1E940A6C5696BC2F23FE16464373763\",\"id\":\"2\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TString\",\"value\":\"javascriptmethodarg0\"}],\"isWeb\":true,\"action\":{\"id\":\"3\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceAction\",\"type\":\"webuijscustomcode\",\"parameters\":[{\"name\":\"javascriptmethodargslength\",\"id\":\"4\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TString\",\"value\":\"1\"},{\"$ref\":\"2\"},{\"name\":\"javascript\",\"id\":\"5\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TString\",\"value\":\"function useDS(searchText){\\\\\\r\\\\\\n  return searchText;\\\\\\r\\\\\\n}\"},{\"name\":\"javascriptmethod\",\"id\":\"6\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TString\",\"value\":\"useDS\"},{\"name\":\"javascriptmethoddescription\",\"id\":\"7\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TString\"},{\"name\":\"retry\",\"id\":\"8\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TBoolean\",\"value\":\"true\"},{\"name\":\"varkey\",\"id\":\"9\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceParameter\",\"type\":\"TString\",\"value\":\"ReturnbyCustomJS\"}]},\"sync_policy\":\"DEFAULT\",\"id\":\"1\",\"declaredClass\":\"com.ibm.rational.test.lt.core.moeb.model.transfer.testscript.DeviceHWActionStep\"}],\"timeout\":10}",
 												  "/WebUIPrj1/Test1.testsuite",
 												  null,
 												  "<default>");
 		IDataSub subContainer_1 = new DataSub();
 		stepBatch.addDataSub(subContainer_1);
-	ISubRule sub_0 = new SubRule("MOEB_FIELD/TPM:A1E9402D391D7A92F23FE16464373763", 0, 20, false, (IDCCoreVar)dcVars[0], false, "javascriptmethodarg0", null, 0, false);
+	ISubRule sub_0 = new SubRule("MOEB_FIELD/TPM:A1E940A6C5696BC2F23FE16464373763", 0, 20, false, (IDCCoreVar)dcVars[0], false, "javascriptmethodarg0", null, 0, false);
 	subContainer_1.addSubInstruction(sub_0);
 	
 		IDataHarvester harvestContainer_1 = new DataHarvester();
@@ -393,7 +393,8 @@ private AssignVariableAction dataVarAssign_2(final IContainer parent) {
 	
 	
 	               
-				this.add(new CustomCode_2(this, dcVars[3]));
+				this.add(datapool_1(this));
+	this.add(new CustomCode_2(this, dcVars[3]));
 			super.executeLoop();
 		    }
 		
@@ -426,7 +427,7 @@ private AssignVariableAction dataVarAssign_2(final IContainer parent) {
 	
 	
 			IDCCoreVar[] inputVars = {
-				
+				dcVars[0]
 			};
 			
 			ICustomCode2 ccclass = 	new webUIpackage.googleDS();

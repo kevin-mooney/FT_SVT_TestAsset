@@ -21,7 +21,7 @@ public class googleDS implements com.ibm.rational.test.lt.kernel.custom.ICustomC
 	 */
 	public String exec(ITestExecutionServices tes, String[] args) {
 		
-		//tes.getTestLogManager().reportVerificationPoint(args[0], VerdictEvent.VERDICT_FAIL);
+		tes.getTestLogManager().reportVerificationPoint(args[0], VerdictEvent.VERDICT_FAIL);
 		tes.getTestLogManager().reportMessage(args[0]);
 		return null;
 	}
