@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><inits xmlns="http://www.ibm.com/rational/test/lt/varinit">
+  <variable_init name="emailAddress" value="vatsalaswamy.s@gmail.com"/>
+  <variable_init name="password" value="password1"/>
+</inits>
