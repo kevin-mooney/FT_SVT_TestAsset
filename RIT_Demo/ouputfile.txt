@@ -1,0 +1,8 @@
+
+Input1: 10
+Input2: 2
+Output: 12
+
+Input1: 5
+Input2: 2
+Output: 7
