@@ -24,21 +24,16 @@ import com.ibm.rational.test.lt.execution.core.impl.LTTestScript;
 import com.ibm.rational.test.lt.execution.moeb.action.EndMoebStepBatchAction;
 import com.ibm.rational.test.lt.execution.moeb.action.MoebStepBatchAction;
 import com.ibm.rational.test.lt.execution.moeb.services.*;
-import com.ibm.rational.test.lt.execution.moeb.services.MoebActionFailedEvent;
-import com.ibm.rational.test.lt.execution.moeb.services.MoebFatalErrorEvent;
 import com.ibm.rational.test.lt.kernel.IDataArea;
 import com.ibm.rational.test.lt.kernel.action.IContainer;
-import com.ibm.rational.test.lt.kernel.action.impl.KThrow;
-import com.ibm.rational.test.lt.kernel.services.*;
-import com.ibm.rational.test.lt.kernel.services.RPTEventStructure;
 
 @SuppressWarnings("all")
 public class ChromeWiki_Test_A1E93F3A5F86BEB0E874B13063393834 extends LTTestScript  {
 
     static ProtoAdapterHandler pa = new ProtoAdapterHandler();
     static {           
-        pa.addPA("com.ibm.rational.test.lt.execution.moeb.dc.MoebDataAdapter", "com.ibm.rational.test.lt.execution.moeb.action.MoebStepBatchAction");
-pa.addPA("com.ibm.rational.test.lt.datacorrelation.execution.protocol.core.CoreProtoAdapter", "coreAdapter");
+        pa.addPA("com.ibm.rational.test.lt.datacorrelation.execution.protocol.core.CoreProtoAdapter", "coreAdapter");
+pa.addPA("com.ibm.rational.test.lt.execution.moeb.dc.MoebDataAdapter", "com.ibm.rational.test.lt.execution.moeb.action.MoebStepBatchAction");
     }
 	
 	private DataVar[] vars = new DataVar[1];
@@ -59,19 +54,7 @@ pa.addPA("com.ibm.rational.test.lt.datacorrelation.execution.protocol.core.CoreP
 	    		if (!isScheduleRun()) setThinkMax(2000);
 	
 	if (!isScheduleRun()){
-this.addEventBehavior(new RPTEventStructure(new RPTFailVPEvent(), new RPTContinueEvent("Content Verification Point failed"), 1, "Content Verification Point failed"));
-	this.addEventBehavior(new RPTEventStructure(new RPTConnectEvent(), new RPTContinueEvent("Connection failed"), 1, "Connection failed"));
-	this.addEventBehavior(new RPTEventStructure(new RPTAuthenticationEvent(), new RPTContinueEvent("Authentication failed"), 1, "Authentication failed"));
-	this.addEventBehavior(new RPTEventStructure(new RPTDataPoolEOFEvent(), new RPTStopUserEvent("End of dataset reached"), 1, "End of dataset reached"));
-	this.addEventBehavior(new RPTEventStructure(new RPTReferenceEvent(), new RPTContinueEvent("Failed to extract reference"), 1, "Failed to extract reference"));
-	this.addEventBehavior(new RPTEventStructure(new RPTSubstitutionEvent(), new RPTContinueEvent("Substitution failed"), 1, "Substitution failed"));
-	this.addEventBehavior(new RPTEventStructure(new RPTServerTimeoutEvent(), new RPTContinueEvent("Timeout"), 1, "Timeout"));
-	this.addEventBehavior(new RPTEventStructure(new RPTCustomCodeVPFailureEvent(), new RPTContinueEvent("Custom Verification Point failed"), 1, "Custom Verification Point failed"));
-	this.addEventBehavior(new RPTEventStructure(new RPTCustomCodeAlertEvent(), new RPTContinueEvent("Custom Code reported an Alert"), 0, "Custom Code reported an Alert"));
-	this.addEventBehavior(new RPTEventStructure(new RPTCustomCodeExceptionEvent(), new RPTStopUserEvent("Custom Code reported an unhandled exception"), 1, "Custom Code reported an unhandled exception"));
-	this.addEventBehavior(new RPTEventStructure(new MoebActionFailedEvent(), new RPTContinueEvent("Playback of Mobile or Web UI Action failed"), 0, "Playback of Mobile or Web UI Action failed"));
-	this.addEventBehavior(new RPTEventStructure(new MoebFatalErrorEvent(), new RPTStopUserEvent("Playback of Mobile or Web UI step has a fatal error"), 0, "Playback of Mobile or Web UI step has a fatal error"));
-	}
+}
 	
 	
 	        	this.add(varAction_1(this));
