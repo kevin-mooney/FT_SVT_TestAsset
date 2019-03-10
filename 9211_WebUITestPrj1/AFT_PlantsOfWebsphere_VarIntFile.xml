@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="N6BD13F002D311E98000E3ADA4ABC200" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/9211_WebUITestPrj1/CmpTest_PlantsOfWebsphere_VarIntFile.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>
