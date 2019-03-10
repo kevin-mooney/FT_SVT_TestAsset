@@ -1,1 +1,2 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="NC9919B002D311E98915E3ADA4ABC200" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/9211_WebUITestPrj1/Tests/PlantsByWebSphere_VarIntFile.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="NC9919B002D311E98915E3ADA4ABC200" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/9211_WebUITestPrj1/Tests/PlantsByWebSphere_VarIntFile.testsuite"/><test path="/9211_WebUITestPrj1/CmpTest_PlantOfWebsphere.testsuite">
+</test></tests><browsers><browser name="firefox"/></browsers></group></inits>
