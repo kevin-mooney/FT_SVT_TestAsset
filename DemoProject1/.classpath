@@ -27,10 +27,6 @@
 	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/workspace_git_0503/zippedExtLibs/mac_geckodriver_0_18.zip"/>
 	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/workspace_git_0503/zippedExtLibs/mac_geckodriver_0_21.zip"/>
 	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/workspace_git_0503/zippedExtLibs/mac_chromedriver.zip"/>
-	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.800.v20190228_0247/libraries/httpclient-4.5.6.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.800.v20190228_0247/libraries/httpcore-4.4.10.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.800.v20190228_0247/libraries/httpmime-4.5.6.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.800.v20190228_0247/libraries/slf4j-simple-1.6.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/workspace_0703/zippedExtLibs/RPTKHelpers.zip"/>
 	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/workspace_0703/zippedExtLibs/chromedriver.zip"/>
 	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/workspace_0703/zippedExtLibs/IEDriverServer.zip"/>
