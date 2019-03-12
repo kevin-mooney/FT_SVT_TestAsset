@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="NE1C086004AF11E9AAD9AB2B5D0407DC" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/WebUIProject/Tests/VariableInit.testsuite"/><test path="/WebUIProject/varinit2.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>
