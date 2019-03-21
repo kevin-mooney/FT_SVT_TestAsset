@@ -139,7 +139,7 @@ private VariableAction varAction_1(final IContainer parent) {
 				 0,
 				 0,
 				 0,
-				 2,
+				 1,
 				 1,
 				 true, 
 				 false,
