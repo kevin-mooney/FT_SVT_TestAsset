@@ -111,7 +111,7 @@ this.addEventBehavior(new RPTEventStructure(new RPTFailVPEvent(), new RPTContinu
 		DatapoolAction dpAction = new DatapoolAction(parent, "Search_Text.csv", "A1E943E9A00B3200F7BAB43534643730", false);
 		Datapool dp = new Datapool(
 				 "/L1dlYlVJUHJvamVjdC9TZWFyY2hfVGV4dC5jc3Y=.csv",
-				 "D:\\Workspaces\\IBM_WS\\gitrepotws\\WebUIProject\\Search_Text.csv",
+				 "D:\\git\\FT_SVT_TestAsset\\WebUIProject\\Search_Text.csv",
 				 0,
 				 true,
 				 false,
