@@ -27,8 +27,8 @@ public class CompoundTest_WebUI_Performance_CompoundTest_A1E94BA5A025A720D876B96
 			}
 		});
 
-		IContainer testMethod_1 = (IContainer) loadTest(this, "New_Perf_project",
-				"test.Perf_Test_Test_A1E94BA68E0D6E50D876B96632663263", "A1E94BA97C3A69F0E05EB63637383761");
+		IContainer testMethod_1 = (IContainer) loadTest(this, "Perf_Project_95",
+				"test.PerfTest2_Test_A1E94BABB79A3BE0E05EB63637383761", "A1E94BC3FEB3C150E05EB63637383761");
 		testMethod_1.setRtbEnabled(false);
 		this.add(testMethod_1);
 
