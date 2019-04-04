@@ -15,11 +15,11 @@ import com.ibm.rational.test.lt.kernel.data.FeatureOptionsDataAreaCreation;
 import java.util.HashMap;
 
 @SuppressWarnings("all")
-public class CompTest_Nav2_CompoundTest_A1E93F6914BF2D20EB42E53034336137
+public class CompNav2new_CompoundTest_A1E940B8018081F0F23FE16464373763
 		extends com.ibm.rational.test.lt.kernel.action.impl.CompoundTest {
 
-	public CompTest_Nav2_CompoundTest_A1E93F6914BF2D20EB42E53034336137(IContainer parent, String name) {
-		super(parent, "CompTest_Nav2", "A1E93F6914BF2D20EB42E53034336137");
+	public CompNav2new_CompoundTest_A1E940B8018081F0F23FE16464373763(IContainer parent, String name) {
+		super(parent, "CompNav2new", "A1E940B8018081F0F23FE16464373763");
 	}
 
 	public void execute() {
@@ -32,16 +32,15 @@ public class CompTest_Nav2_CompoundTest_A1E93F6914BF2D20EB42E53034336137
 	}
 
 	private For Loop_1(IContainer parent) {
-		For forLoop = new For(parent, "Loop1", "A1E93F691DA30650EB42E53034336137", 0, 0, 0, 200, 1, true, false, null) {
+		For forLoop = new For(parent, "Loop1", "A1E956BE6E630970F2A0B23032376134", 0, 0, 0, 2, 1, true, false, null) {
 
 			public void executeLoop() {
 
-				this.add(new test.Test_A1E58C87AC5C458DEF85E23366663430(this, "A1E93F69187EA620EB42E53034336137") {
-					public void execute() {
-						this.setRtbEnabled(false);
-						super.execute();
-					}
-				});
+				IContainer testMethod_1 = (IContainer) loadTest(this, "FirstDummyProject",
+						"test.FirstDummyTest_Test_A1E92F58589ECB20EC36E43439636630",
+						"A1E940B804FE5E10F23FE16464373763");
+				testMethod_1.setRtbEnabled(false);
+				this.add(testMethod_1);
 
 				super.executeLoop();
 			}

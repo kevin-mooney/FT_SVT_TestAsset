@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="location_template">
+	<item value="loc_nav" key="name"/>
+	<item value="1.0" key="version"/>
+	<item value="1fd7875a-286b-4c95-b575-942488c9dee8" key="uuid"/>
+	<section name="provider">
+		<item value="/tmp/cloud_agent" key="deploy_dir"/>
+		<item value="San Jose 1" key="location_name"/>
+		<item value="LINUX" key="os"/>
+		<item value="rational.ibmcloud.com" key="domain"/>
+		<item value="sjc01" key="location"/>
+		<item value="9500_GA_AG" key="instance_type_name"/>
+		<item value="com.ibm.rational.test.common.softlayer.provisioner" key="id"/>
+		<item value="1" key="vmOption"/>
+		<item value="GA_AG" key="instance_type"/>
+		<item value="Shared Hypervisor" key="vmOption_name"/>
+	</section>
+</section>

@@ -37,8 +37,8 @@ public class FirstDummyTest_Test_A1E92F58589ECB20EC36E43439636630 extends LTTest
 
     static ProtoAdapterHandler pa = new ProtoAdapterHandler();
     static {           
-        pa.addPA("com.ibm.rational.test.lt.execution.moeb.dc.MoebDataAdapter", "com.ibm.rational.test.lt.execution.moeb.action.MoebStepBatchAction");
-pa.addPA("com.ibm.rational.test.lt.datacorrelation.execution.protocol.core.CoreProtoAdapter", "coreAdapter");
+        pa.addPA("com.ibm.rational.test.lt.datacorrelation.execution.protocol.core.CoreProtoAdapter", "coreAdapter");
+pa.addPA("com.ibm.rational.test.lt.execution.moeb.dc.MoebDataAdapter", "com.ibm.rational.test.lt.execution.moeb.action.MoebStepBatchAction");
     }
 	
 	private DataVar[] vars = new DataVar[1];
