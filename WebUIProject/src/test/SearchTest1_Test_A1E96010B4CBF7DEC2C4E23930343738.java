@@ -40,7 +40,7 @@ import com.ibm.rational.test.lt.kernel.services.*;
 import com.ibm.rational.test.lt.kernel.services.RPTEventStructure;
 
 @SuppressWarnings("all")
-public class SearchTest1_Test_A1E943E98691BDD0F7BAB43534643730 extends LTTestScript  {
+public class SearchTest1_Test_A1E96010B4CBF7DEC2C4E23930343738 extends LTTestScript  {
 
     static ProtoAdapterHandler pa = new ProtoAdapterHandler();
     static {           
@@ -53,8 +53,8 @@ pa.addPA("com.ibm.rational.test.lt.execution.moeb.dc.MoebDataAdapter", "com.ibm.
     
     
 	
-	public SearchTest1_Test_A1E943E98691BDD0F7BAB43534643730(IContainer container, String invocationId) {
-		super(container, "SearchTest1", invocationId, "A1E943E98691BDD0F7BAB43534643730");
+	public SearchTest1_Test_A1E96010B4CBF7DEC2C4E23930343738(IContainer container, String invocationId) {
+		super(container, "SearchTest1", invocationId, "A1E96010B4CBF7DEC2C4E23930343738");
 		setArmEnabled(false);
 		stopAtYourConvenience=false;
 		
@@ -90,7 +90,7 @@ this.addEventBehavior(new RPTEventStructure(new RPTFailVPEvent(), new RPTContinu
 			this.addFinally(new EndMoebStepBatchAction(this));
 
 	    } catch (Throwable e) {
-		     log("Test Execution: SearchTest1_Test_A1E943E98691BDD0F7BAB43534643730 ",e);
+		     log("Test Execution: SearchTest1_Test_A1E96010B4CBF7DEC2C4E23930343738 ",e);
 	    } finally {
 	        super.execute();
 		}	    
