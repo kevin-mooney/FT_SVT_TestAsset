@@ -1,11 +1,9 @@
 package package_java;
 
-import org.eclipse.hyades.test.common.event.VerdictEvent;
-
-import com.ibm.rational.test.lt.kernel.services.ITestExecutionServices;
+import com.ibm.rational.test.lt.core.execution.VerdictEventTester;
 import com.ibm.rational.test.lt.execution.moeb.custom.IMobileWebService;
-
 import com.ibm.rational.test.lt.execution.moeb.custom.MobileWebCustomAccessor;
+import com.ibm.rational.test.lt.kernel.services.ITestExecutionServices;
 
 /**
  * @author unknown
@@ -23,20 +21,19 @@ public class printlog implements com.ibm.rational.test.lt.kernel.custom.ICustomC
 	 * Help menu and select 'Extending Rational Performance Tester functionality' -> 'Extending test execution with custom code'
 	 */
 	public String exec(ITestExecutionServices tes, String[] args) {
-		IMobileWebService mobileWebService = MobileWebCustomAccessor.getMobileWebService();
+IMobileWebService mobileWebService = MobileWebCustomAccessor.getMobileWebService();
 		
-		if(args[0].contains("none")) { //negative VP - pass if the visiblity is "non" - not visible
-			tes.getTestLogManager().reportVerificationPoint("CustomVP", VerdictEvent.VERDICT_PASS);
+		
+			tes.getTestLogManager().reportVerificationPoint("CustomVP", VerdictEventTester.VERDICT_PASS_BIT);
 			
-			mobileWebService.reportVerdict(tes, "Web CustomVP ", VerdictEvent.VERDICT_PASS);
+			mobileWebService.reportVerdict(tes, "Web CustomVP ", VerdictEventTester.VERDICT_PASS_BIT);
 			
-		} else { // Else it is visible, so report VP failure
-			tes.getTestLogManager().reportVerificationPoint("CustomVP", VerdictEvent.VERDICT_FAIL);
+		
+			tes.getTestLogManager().reportVerificationPoint("CustomVP", VerdictEventTester.VERDICT_FAIL_BIT);
 			
-			mobileWebService.reportVerdict(tes, "Web CustomVP ", VerdictEvent.VERDICT_FAIL);
-		}
+			mobileWebService.reportVerdict(tes, "Web CustomVP ", VerdictEventTester.VERDICT_FAIL_BIT);
+		
 		return null;
 	}
 
 }
-
