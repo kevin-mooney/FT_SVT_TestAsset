@@ -102,7 +102,7 @@ this.addEventBehavior(new RPTEventStructure(new RPTFailVPEvent(), new RPTContinu
 	private VariableAction varAction_1(final IContainer parent) {
 
 	VariableAction vc = new VariableAction(parent, "", "A1E940D898503E3EEF4AB13531633735");	
-			vars[0] = new DataVar("RTW_WebUI_Browser_Selection", "Chrome", IDataArea.VIRTUALUSER, "IGNORE", false, false);
+			vars[0] = new DataVar("RTW_WebUI_Browser_Selection", "firefox", IDataArea.VIRTUALUSER, "IGNORE", false, false);
 
 		
 	vc.add(vars);
