@@ -46,7 +46,7 @@ public class PlantsByWebSphere_VarIntFile_Test_A1E940B59F36D67FEE3CB26238303734 
         pa.addPA("com.ibm.rational.test.lt.datacorrelation.execution.protocol.core.CoreProtoAdapter", "coreAdapter");
 pa.addPA("com.ibm.rational.test.lt.execution.moeb.dc.MoebDataAdapter", "com.ibm.rational.test.lt.execution.moeb.action.MoebStepBatchAction");
     }
-	
+	private IDataCorrelationVar[] dcVars = DataCorrelationVar.getArrayDCVars(1);
 	private DataVar[] vars = new DataVar[3];
 	
     
@@ -111,16 +111,16 @@ this.addEventBehavior(new RPTEventStructure(new RPTFailVPEvent(), new RPTContinu
 	
 	
 	private DatapoolAction datapool_1(IContainer parent) {
-		DatapoolAction dpAction = new DatapoolAction(parent, "PlantsByWebsphereEncrypted.csv", "A1E940B3C7439710FAE0E66162386564", false);
+		DatapoolAction dpAction = new DatapoolAction(parent, "PlantsByWebsphere.csv", "A1E942D568F6C1E0E718E63737666633", false);
 		Datapool dp = new Datapool(
-				 "/LzkyMTFfV2ViVUlUZXN0UHJqMS9EYXRhcG9vbHMvUGxhbnRzQnlXZWJzcGhlcmVFbmNyeXB0ZWQuY3N2.csv",
-				 "C:\\Users\\vatsalas\\git\\FT_SVT_TestAsset\\9211_WebUITestPrj1\\Datapools\\PlantsByWebsphereEncrypted.csv",
+				 "/LzkyMTFfV2ViVUlUZXN0UHJqMS9EYXRhcG9vbHMvUGxhbnRzQnlXZWJzcGhlcmUuY3N2.csv",
+				 "C:\\Users\\vatsalas\\git\\FT_SVT_TestAsset\\9211_WebUITestPrj1\\Datapools\\PlantsByWebsphere.csv",
 				 0,
 				 true,
 				 false,
 				 Datapool.SEQUENTIAL,
 				 null, 0, false, getVirtualUserName());
-		
+		dp.addHarvestInstruction("E-mail address:", dcVars[0], false);
 		dpAction.setDatapool(dp);
 		return dpAction;
 	}
@@ -197,7 +197,7 @@ private VariableAction varAction_1(final IContainer parent) {
 												  "<default>");
 		IDataSub subContainer_1 = new DataSub();
 		stepBatch.addDataSub(subContainer_1);
-	ISubRule sub_0 = new SubRule("MOEB_FIELD/TPM:A1E940B07FB91AD7FAE0E66162386564", 0, 22, false, (IDCCoreVar)vars[2], false, "vatsalaswamy.s@hcl.com", null, 0, false);
+	ISubRule sub_0 = new SubRule("MOEB_FIELD/TPM:A1E940B07FB91AD7FAE0E66162386564", 0, 22, false, (IDCCoreVar)dcVars[0], false, "vatsalaswamy.s@hcl.com", null, 0, false);
 	subContainer_1.addSubInstruction(sub_0);
 	
 
