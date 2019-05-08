@@ -1,4 +1,5 @@
 StickyFolders///Compound\ Tests=com.ibm.rational.test.lt.scenario
 StickyFolders///Results=com.ibm.rational.test.lt.stats.session
 StickyFolders///Tests=com.ibm.rational.test.lt.test
+StickyFolders///src=com.ibm.rational.test.lt.workspace.unknown
 eclipse.preferences.version=1
