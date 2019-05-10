@@ -44,5 +44,6 @@ Require-Bundle: com.ibm.rational.test.lt.kernel,
   com.ibm.rational.test.rtw.webgui.playback.selenium,
   com.ibm.rational.test.rtw.webgui.playback,
   com.ibm.rational.test.rtw.webgui.execution,
-  com.ibm.rational.test.lt.execution.websocket
+  com.ibm.rational.test.lt.execution.websocket,
+  com.ibm.rational.test.rit.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
