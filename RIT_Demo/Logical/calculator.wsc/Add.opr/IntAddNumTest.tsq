@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1545237091052" createdUser="rajanikumari.v" id="58a25336:167c6918b50:-7b0a" type="test_resource" updatedTimestamp="1545726072815" updatedUser="rajanikumari.v" version="1.1">
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1545237091052" createdUser="rajanikumari.v" id="58a25336:167c6918b50:-7b0a" type="test_resource" updatedTimestamp="1557475713833" updatedUser="rajanikumari.v" version="1.1">
    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
    <resourceConfig description="" name="">
       <testTree>
@@ -271,7 +271,7 @@
                      </_c>
                   </_c>
                </headerMessage>
-               <subconfig MessageType="http.text.message.type" _version="1.1" formatter="HTTP_Message" transport="220bc60b:167c08493b8:-7ed3:-2046364207:408339756"/>
+               <subconfig MessageType="http.text.message.type" URL="" _version="1.1" allowSubPath="false" consumerType="Participate" filterHeaders="false" filterMethod="false" filterResourcePath="false" formatter="HTTP_Message" transport="220bc60b:167c08493b8:-7ed3:-2046364207:408339756"/>
                <bodyMessage assocdefid="Text" name="Text" sch="Text" type="12" version="1.2">
                   <fieldActionGroup>
                      <fieldAction type="1">
@@ -422,18 +422,14 @@
          </editableResource>
       </testTree>
       <tagDataStore inputMode="SELECT" outputMode="SELECT">
-         <tag defaultValue="" description="" name="Result">
-            <tagProps>
-               <prop key="scopeExecution" value="true"/>
-            </tagProps>
-         </tag>
-         <tag defaultValue="1" description="" name="Input1">
+         <tag defaultValue="" description="" name="Result"/>
+         <tag defaultValue="10" description="" name="Input1">
             <tagProps>
                <prop key="interfaceInput" value="true"/>
                <prop key="scopeExecution" value="true"/>
             </tagProps>
          </tag>
-         <tag defaultValue="1" description="" name="Input2">
+         <tag defaultValue="10" description="" name="Input2">
             <tagProps>
                <prop key="interfaceInput" value="true"/>
                <prop key="scopeExecution" value="true"/>
