@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><_c buildID="I20181214_0516" certificateAuthority="KEY_1024_BITS" comments="Project created on December 18, 2018" creationVersion="10.0.0" domain="default" extDocPrefix="" name="RIT_Demo" owner="rajanikumari.v" rulesCacheUri="%%PROJECT/ROOT%%Rules" uuid="00000167-c084-9001-0001-ad027cf0f668">
+   <rootEnvironmentConfig isOverridingVaultNamespace="false" overridingVaultNamespace=""/>
+   <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+   <serverSettings autoPublishing="true" ghRepositoryURL="https://localhost:5443/RTCP" publishedProject="1" trustSource="INBUILT_CA" trustStorePath="">
+      <dbConnectionParameters maxConnections="5" poolName="DefaultPoolName">
+         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="" password="#com.ghc.1!f2d3" recordFilters="" schema="" url="" useSsl="false" user="">
+            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!3889" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
+            <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+            <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
+         </connectionParams>
+      </dbConnectionParameters>
+   </serverSettings>
+   <permissionsSettings autoLogin="true" host="AP-PNP-DC04" permFactId="ldap.permissions.factory.none" port="389" pswd="2jmj7l5rSw0yVb/vlWAYkK/YBwk="/>
+</_c>

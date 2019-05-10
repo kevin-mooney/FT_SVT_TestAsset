@@ -6,11 +6,6 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
-			<name>com.ibm.rational.test.lt.recorder.core.recsessionbuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
 			<arguments>
 			</arguments>
@@ -31,11 +26,4 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>com.ibm.rational.test.lt.core.RPTNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>serverdata.xml</name>
-			<type>1</type>
-			<location>C:/Users/rajanikumari.v.NONPROD/Desktop/serverdata</location>
-		</link>
-	</linkedResources>
 </projectDescription>

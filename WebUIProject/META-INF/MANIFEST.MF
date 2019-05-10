@@ -35,11 +35,14 @@ Require-Bundle: com.ibm.rational.test.lt.kernel,
   org.eclipse.emf.ecore.xmi,
   org.eclipse.tptp.platform.models.hierarchy,
   org.eclipse.tptp.platform.models,
+  com.ibm.rational.test.lt.datacorrelation.execution.http,
+  com.ibm.rational.test.lt.execution.http,
+  com.ibm.rational.test.lt.http.common,
   com.ibm.rational.test.lt.execution.moeb,
   com.ibm.rational.test.lt.core.moeb,
   com.ibm.rational.test.rtw.webgui.selenium,
   com.ibm.rational.test.rtw.webgui.playback.selenium,
   com.ibm.rational.test.rtw.webgui.playback,
   com.ibm.rational.test.rtw.webgui.execution,
-  com.ibm.rational.test.lt.execution.http
+  com.ibm.rational.test.lt.execution.websocket
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
