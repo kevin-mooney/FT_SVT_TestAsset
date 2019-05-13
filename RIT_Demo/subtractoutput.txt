@@ -1,7 +1,0 @@
-Entered in to RIT test
-Values received from webui are
-Input1: 10
-Input2: 5
-Output: 0Input1: 10
-Input2: 5
-Output: 5
