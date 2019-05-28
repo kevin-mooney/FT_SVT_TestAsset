@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Abhi1
-Bundle-SymbolicName: Abhi1
+Bundle-Name: 76_W1_p2
+Bundle-SymbolicName: 76_W1_p2
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: com.ibm.rational.test.lt.kernel,
   com.ibm.rational.test.lt.datatransform.adapters,
