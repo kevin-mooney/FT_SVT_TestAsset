@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1545123642220" createdUser="rajanikumari.v" id="220bc60b:167c08493b8:-7ed3:1437688209:1544155186" selfDescribing="https ap-wft-win20.nonprod.hclpnp.com:5443" type="http_transport" updatedTimestamp="1545123642220" updatedUser="rajanikumari.v" version="1.0">
+   <syncdetails compare="https ap-wft-win20.nonprod.hclpnp.com:5443" lastSynced="1545123642220" sourceid="220bc60b:167c08493b8:-7ed3">
+      <sourcepath path="CalculatorPortBindingService/CalculatorPortBindingSoap11"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="" transportTemplateName="HTTP">
+      <messageProperties ReasonPhrase="No Stub available that matches the request" clientConnectionsPerHost="100" credDomain="" credPassword="#com.ghc.1!9e61" credPreemptive="false" credType="0" credUser="" httpHost="ap-wft-win20.nonprod.hclpnp.com" httpNtlmDomain="" httpPort="5443" httpProxyHost="" httpProxyPassword="#com.ghc.1!0911" httpProxyPort="" httpProxyUsername="" httpServerSocketBindAddressOverride="" httpServerSocketPortOverride="" httpSocketTimeout="" httpTimeoutResponseCode="503" httpVirtualHost="" useSsl="true" version="4">
+         <kerberos Anon="false" CStyle="Username / Password" Conf="false" Custom="true" Enabled="false" Integ="false" MutAuth="false" RepDet="false" SSO="false" SeqCheck="false"/>
+      </messageProperties>
+   </resourceConfig>
+</editableResource>
