@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1545237091052" createdUser="rajanikumari.v" id="58a25336:167c6918b50:-7b0a" type="test_resource" updatedTimestamp="1559112300156" updatedUser="rajanikumari.v" version="1.1">
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1545237091052" createdUser="rajanikumari.v" id="58a25336:167c6918b50:-7b0a" type="test_resource" updatedTimestamp="1559293203019" updatedUser="rajanikumari.v" version="1.1">
    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
    <resourceConfig description="" name="">
       <testTree>
@@ -418,7 +418,7 @@
          </editableResource>
          <editableResource id="24d1ab16:167c176eb1a:-7bb7" selfDescribing="The log actions enables you to output messages to console and a logging file." type="logging_action" version="1.0">
             <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
-            <resourceConfig append="true" description="" flush="true" loggingMessage="Input1: %%Input1%%&#13;&#10;Input2: %%Input2%%&#13;&#10;Output: %%ResultTag%%&#13;&#10;" name="Input1: %%Input1%%" outputFile="C:\RIT_Outputfile\output1.txt" role="0"/>
+            <resourceConfig append="true" description="" enabled="false" flush="true" loggingMessage="Input1: %%Input1%%&#13;&#10;Input2: %%Input2%%&#13;&#10;Output: %%ResultTag%%&#13;&#10;" name="Input1: %%Input1%%" outputFile="C:\RIT_Outputfile\output1.txt" role="0"/>
          </editableResource>
       </testTree>
       <tagDataStore inputMode="SELECT" outputMode="SELECT">
