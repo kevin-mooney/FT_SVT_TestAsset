@@ -1,7 +1,0 @@
-Test Name, Application Name,Browser, Mobile OS, Playback
-fvt_weather_chktemp_AET43.txt,weather,Firefox,Android,Yes
-svt_ebay_buyIphone_IDM71.txt,www.ebay.co.in,Internet Explorer,Android,Yes
-fvt_amazon_buyBooks_FF30.txt,Internet Explorer,www.amazon.co.in,Android,No
-fvt_calculator_arithmeticOperations_AEM4.3.testsuite,Calculator,Firefox,Android,Yes
-DeleteMe_google_FF24.testsuite,www.google.co.in,Firefox,iOS,Yes
-fvt_aries-web_basicHTML01_FF31.1esr.testsuite,www.aries-web,Firefox,,Yes
