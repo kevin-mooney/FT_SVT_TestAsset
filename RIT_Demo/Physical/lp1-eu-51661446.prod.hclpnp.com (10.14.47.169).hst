@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1559637440002" createdUser="rajanikumari.v" id="11f05d4c:16b1d818ece:-693e" selfDescribing="lp1-eu-51661446.prod.hclpnp.com (10.14.47.169)" type="host_machine_resource" updatedTimestamp="1559637440002" updatedUser="rajanikumari.v" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig host_address="10.14.47.169" user_host_name="lp1-eu-51661446.prod.hclpnp.com">
+      <roles>
+         <identity name="ssh" port="22"/>
+      </roles>
+   </resourceConfig>
+</editableResource>

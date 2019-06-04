@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1559637442997" createdUser="rajanikumari.v" id="11f05d4c:16b1d818ece:-692e" selfDescribing="lp1-eu-51661446.prod.hclpnp.com (10.14.47.169) - JMX (default)" type="probe_resource" updatedTimestamp="1559637442997" updatedUser="rajanikumari.v" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig defaultFlag="true" name="default" physicalResourceID="11f05d4c:16b1d818ece:-693e" probeID="ghviewer.plugin.jmx">
+      <JmxDatasource configuration="default"/>
+   </resourceConfig>
+</editableResource>
