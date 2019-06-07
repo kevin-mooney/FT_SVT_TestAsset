@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="N9D56580095511E990E3B2FEBE9D2D87" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/VacationPlanner_Prj/Tests/flightBooking.testsuite"/><test path="/VacationPlanner_Prj/Tests/flightBooking1.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>
