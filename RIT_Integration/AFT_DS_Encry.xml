@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="N86E73800C1D11E98000D2DAB1E97664" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/RIT_Integration/DS_Encry_Test1.testsuite"/><test path="/RIT_Integration/DS_Encry_Test2.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>
