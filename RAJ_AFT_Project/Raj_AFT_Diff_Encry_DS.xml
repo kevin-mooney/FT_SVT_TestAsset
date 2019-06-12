@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="ND9767100D0D11E98000FA8911F2E0A4" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/RAJ_AFT_Project/Tests/Google_DS_Encr1.testsuite"/><test path="/RAJ_AFT_Project/Tests/Google_DS_Encry3.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>
