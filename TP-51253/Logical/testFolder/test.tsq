@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1559052155951" createdUser="RAMAKRISHNAN_H" id="69dba94d:16afebf5b87:-7ecf" type="test_resource" updatedTimestamp="1559052184231" updatedUser="RAMAKRISHNAN_H" version="1.1">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig description="" name="">
+      <testTree>
+         <editableResource id="69dba94d:16afebf5b87:-7e7a" selfDescribing="Indicate the starting point for a timed section in a performance test.  See manual for details on when timer will be started." type="begin_timed_section_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" name="foo" sectionName="foo" statusAtTestEnd="true"/>
+         </editableResource>
+         <editableResource id="69dba94d:16afebf5b87:-7e54" selfDescribing="The log actions enables you to output messages to console and a logging file." type="logging_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig append="true" description="" flush="true" loggingMessage="Test message" name="Test message" outputFile="" role="0"/>
+         </editableResource>
+      </testTree>
+      <tagDataStore inputMode="NONE" outputMode="NONE"/>
+      <testprops messageClearance="false"/>
+   </resourceConfig>
+</editableResource>

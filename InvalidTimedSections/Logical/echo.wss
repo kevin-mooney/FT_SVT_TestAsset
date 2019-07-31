@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1558631334054" createdUser="RICHARD.LITTLEJR" id="-1c0726fb:16ae5aa9568:-7ed0" selfDescribing="echo" type="wsdl_schema" updatedTimestamp="1558631335935" updatedUser="RICHARD.LITTLEJR" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig schemaSourceTemplateName="WSDL">
+      <schemaSourceConfig sourceType="102" uri="https://localhost:5443/RTCP/examples/echo/echoService/echo.wsdl"/>
+   </resourceConfig>
+</editableResource>

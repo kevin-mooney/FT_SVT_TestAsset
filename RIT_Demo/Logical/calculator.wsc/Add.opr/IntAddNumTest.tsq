@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1545237091052" createdUser="rajanikumari.v" id="58a25336:167c6918b50:-7b0a" type="test_resource" updatedTimestamp="1559553041277" updatedUser="rajanikumari.v" version="1.1">
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1545237091052" createdUser="rajanikumari.v" id="58a25336:167c6918b50:-7b0a" type="test_resource" updatedTimestamp="1564492258581" updatedUser="rajanikumari.v" version="1.1">
    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
    <resourceConfig description="" name="">
       <testTree>
@@ -271,7 +271,7 @@
                      </_c>
                   </_c>
                </headerMessage>
-               <subconfig MessageType="http.text.message.type" URL="" _version="1.1" allowSubPath="false" consumerType="Participate" filterHeaders="false" filterMethod="false" filterResourcePath="false" formatter="HTTP_Message" transport="220bc60b:167c08493b8:-7ed3:-2046364207:408339756"/>
+               <subconfig MessageType="http.text.message.type" _version="1.1" formatter="HTTP_Message" transport="220bc60b:167c08493b8:-7ed3:-2046364207:408339756"/>
                <bodyMessage assocdefid="Text" name="Text" sch="Text" type="12" version="1.2">
                   <fieldActionGroup>
                      <fieldAction type="1">
@@ -361,7 +361,7 @@
                      </nodeProcessor>
                      <contentTree>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;Add___OUTPUT___AddResponse&gt;&#13;
    &lt;tns:AddResponse xmlns:tns="http://com.greenhat.examples/calculator/definitions"&gt;&#13;
-      &lt;Result&gt;12&lt;/Result&gt;&#13;
+      &lt;Result/&gt;&#13;
    &lt;/tns:AddResponse&gt;&#13;
 &lt;/Add___OUTPUT___AddResponse&gt;<defaultActions>
                            <defaultMessageActions>
@@ -397,7 +397,7 @@
                            </updateField>
                            <setAction index="0" path="/text/Add___OUTPUT___AddResponse/tns:AddResponse/Result/{}" replaceActionType="0" replaceOuterType="1">
                               <fieldAction enabled="false" type="1">
-                                 <fieldAction enabled="false" exp="12" type="0"/>
+                                 <fieldAction enabled="false" type="0"/>
                               </fieldAction>
                            </setAction>
                            <setAction index="0" path="/text/Add___OUTPUT___AddResponse/tns:AddResponse/Result/{}">
@@ -418,7 +418,7 @@
          </editableResource>
          <editableResource id="24d1ab16:167c176eb1a:-7bb7" selfDescribing="The log actions enables you to output messages to console and a logging file." type="logging_action" version="1.0">
             <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
-            <resourceConfig append="true" description="" enabled="false" flush="true" loggingMessage="Input1: %%Input1%%&#13;&#10;Input2: %%Input2%%&#13;&#10;Output: %%ResultTag%%&#13;&#10;" name="Input1: %%Input1%%" outputFile="D:\RIT_WS\RIT_Demo\output1.txt" role="0"/>
+            <resourceConfig append="true" description="" flush="true" loggingMessage="Input1: %%Input1%%&#13;&#10;Input2: %%Input2%%&#13;&#10;Output: %%ResultTag%%&#13;&#10;&#13;&#10;&#13;&#10;" name="Input1: %%Input1%%" outputFile="C:\RIT_Outputfile\output1.txt" role="0"/>
          </editableResource>
       </testTree>
       <tagDataStore inputMode="SELECT" outputMode="SELECT">
@@ -427,13 +427,13 @@
                <prop key="scopeExecution" value="true"/>
             </tagProps>
          </tag>
-         <tag defaultValue="1" description="" name="Input1">
+         <tag defaultValue="10" description="" name="Input1">
             <tagProps>
                <prop key="interfaceInput" value="true"/>
                <prop key="scopeExecution" value="true"/>
             </tagProps>
          </tag>
-         <tag defaultValue="1" description="" name="Input2">
+         <tag defaultValue="20" description="" name="Input2">
             <tagProps>
                <prop key="interfaceInput" value="true"/>
                <prop key="scopeExecution" value="true"/>

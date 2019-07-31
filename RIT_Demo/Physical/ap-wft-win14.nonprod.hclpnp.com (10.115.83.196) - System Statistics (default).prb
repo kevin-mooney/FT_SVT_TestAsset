@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1562152244399" createdUser="rajanikumari.v" id="7327c660:16bb6bee8ce:-7421" selfDescribing="ap-wft-win14.nonprod.hclpnp.com (10.115.83.196) - System Statistics (default)" type="probe_resource" updatedTimestamp="1562152244399" updatedUser="rajanikumari.v" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig defaultFlag="true" name="default" physicalResourceID="7327c660:16bb6bee8ce:-7426" probeID="plugin.custom.SysStat">
+      <SysStatDatasource allProcesses="true" configuration="default"/>
+   </resourceConfig>
+</editableResource>

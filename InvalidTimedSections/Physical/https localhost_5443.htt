@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1558631337327" createdUser="RICHARD.LITTLEJR" id="-1c0726fb:16ae5aa9568:-7ecf:1437688209:1544155186" selfDescribing="https localhost:5443" type="http_transport" updatedTimestamp="1558631337327" updatedUser="RICHARD.LITTLEJR" version="1.0">
+   <syncdetails compare="https localhost:5443" lastSynced="1558631337327" sourceid="-1c0726fb:16ae5aa9568:-7ecf">
+      <sourcepath path="EchoPortBindingService/EchoPortBindingSoap11"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="" transportTemplateName="HTTP">
+      <messageProperties ReasonPhrase="No Stub available that matches the request" clientConnectionsPerHost="100" credDomain="" credPassword="#com.ghc.1!2175" credPreemptive="false" credType="0" credUser="" httpHost="localhost" httpNtlmDomain="" httpPort="5443" httpProxyHost="" httpProxyPassword="#com.ghc.1!787d" httpProxyPort="" httpProxyUsername="" httpServerSocketBindAddressOverride="" httpServerSocketPortOverride="" httpSocketTimeout="" httpTimeoutResponseCode="503" httpVirtualHost="" useSsl="true" version="4">
+         <kerberos Anon="false" CStyle="Username / Password" Conf="false" Custom="true" Enabled="false" Integ="false" MutAuth="false" RepDet="false" SSO="false" SeqCheck="false"/>
+         <oauth clientassertion="" clientid="" clientsecret="" enabled="false" refreshtoken="" scopes="" tokenendpoint=""/>
+      </messageProperties>
+   </resourceConfig>
+</editableResource>

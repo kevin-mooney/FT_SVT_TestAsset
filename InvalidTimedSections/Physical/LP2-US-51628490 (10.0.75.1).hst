@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1558693842108" createdUser="RICHARD.LITTLEJR" id="-570788c0:16ae5b7c444:-79f8" selfDescribing="LP2-US-51628490 (10.0.75.1)" type="host_machine_resource" updatedTimestamp="1558693842108" updatedUser="RICHARD.LITTLEJR" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig host_address="10.0.75.1" user_host_name="LP2-US-51628490">
+      <roles>
+         <identity name="ssh" port="22"/>
+      </roles>
+   </resourceConfig>
+</editableResource>

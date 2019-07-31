@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1558693890389" createdUser="RICHARD.LITTLEJR" id="-570788c0:16ae5b7c444:-79c4" type="performance_test_resource" updatedTimestamp="1558693978926" updatedUser="RICHARD.LITTLEJR" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig description="" interval="5" iterations="1" loadProfileType="0" owner="" phaseDurationColumn="" phaseDurationUnits="0" phaseRanges="" probeCoolDownTime="15" probeCoolDownUnits="0" probeWarmUpTime="15" probeWarmUpUnits="0" stepduration="20">
+      <distributedtests>
+         <distributedtest description="" engineIDs="-570788c0:16ae5b7c444:-79fd/default" loadDistributionType="0" name="Load-generating Test" owner="" startLevelUnit="0" startlevel="1" stepvalue="0" targetIterationsColumn="" targetIteratsionUnit="0">
+            <testreference id="-570788c0:16ae5b7c444:-7b20" lkname="InvalidTimedSectionNoEnd" lkpath="echo/Echo/InvalidTimedSectionNoEnd" type="test_resource"/>
+            <mappings disableMappings="false" iterationContributor="true" maxIterationTime="0.0" maxIterationTimeExceededFailsTest="false" maxTotalIterationTime="0.0" maxTotalIterationTimeExceededFailsTest="false" option="NOTHING" pacingtime="0.0" pacingtype="MIN_DURATION" performanceDisableValidation="false" performanceInstances="1" performanceInterleave="false" performanceMaximumIterationTime="0" performanceMaximumTestTime="0" performanceUseMaximumIterationTime="false" performanceUseMaximumTestTime="false" remoteAgent="" reportingLogIterations="1" reportingLogLogMessages="8" reportingLogMessages="4" reportingLogScriptExitCodes="8" reportingLogScriptOutput="8" reportingLogTagValues="8" reportingLogTimes="8" runSettingsContinueOnFail="true" runSettingsDelayEnabled="false" runSettingsDelayType="Fixed Delay" runSettingsIterations="" runSettingsMaximumDelayValue="0" runSettingsMinimumDelayValue="0" runSettingsRunFor="0" runSettingsRunType="Once Only" runSettingsTestDescription="" type="script:ECMAScript" useMaxIterationTime="false" useMaxTotalIterationTime="false" usepacing="false">
+               <mapper disableFiltersWhenEmpty="false" knownColumns="" noAutoMap=""/>
+            </mappings>
+         </distributedtest>
+      </distributedtests>
+      <dependencies lockEnvironment="false"/>
+   </resourceConfig>
+</editableResource>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1558622063550" createdUser="RICHARD.LITTLEJR" id="13843ad5:16ae51d4ab3:-7f86" type="environment_resource" updatedTimestamp="1558631337317" updatedUser="RICHARD.LITTLEJR" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
+      <evbindings>
+         <evbinding evLogicalItemId="-1c0726fb:16ae5aa9568:-7ecf:1704227889:408339756" evPhysicalItemId="-1c0726fb:16ae5aa9568:-7ecf:1437688209:1544155186"/>
+      </evbindings>
+   </resourceConfig>
+</editableResource>
