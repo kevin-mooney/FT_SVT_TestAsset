@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="N0A5A5B0047711E992F4F1BD328115AE" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/TestData/Tests/TestWithLoops.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>
