@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="N54D5FD0044B11E9B1C9AEE2105D989F" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/FunctionalTestProject/Tests/transactions_aries-web.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>
