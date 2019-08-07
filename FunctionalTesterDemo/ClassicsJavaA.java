@@ -54,7 +54,10 @@ public class ClassicsJavaA extends ClassicsJavaAHelper
 		 * The APIs like  logInfo(), logError(), logWarning() etc can be used to print a message to the play-back log which is generated after the
 		 * script execution.
 		 */
-		logInfo("Starting execution of Script " + getScriptName());
+		
+//		logInfo(args[0].toString());
+//		logInfo(args[1].toString());
+//		logInfo("Starting execution of Script " + getScriptName());
 		
 		/**
 		 *  Use startApp("<<application-name>>"), to launch an application that is configured through Configure-> Configure Applications for Testing.
