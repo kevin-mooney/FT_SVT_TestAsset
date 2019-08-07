@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="NBE0C3B0044E11E99179F3FA6A43B8DF" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/TestData/Tests/WrapDataset.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="NBE0C3B0044E11E99179F3FA6A43B8DF" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/TestData/Tests/CustomCodeDataset.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>
