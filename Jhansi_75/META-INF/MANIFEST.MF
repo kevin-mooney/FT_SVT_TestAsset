@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Jhansi_75
-Bundle-SymbolicName: Jhansi_75
+Bundle-SymbolicName: Jhansi_75_new
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: com.ibm.rational.test.lt.kernel,
   com.ibm.rational.test.lt.datatransform.adapters,
