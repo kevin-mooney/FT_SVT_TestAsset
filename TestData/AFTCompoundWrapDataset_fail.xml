@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="N3ACCF50062911E9A5E8DA56F871F861" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/TestData/Tests/CompoundWrapDataset_fail.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>
