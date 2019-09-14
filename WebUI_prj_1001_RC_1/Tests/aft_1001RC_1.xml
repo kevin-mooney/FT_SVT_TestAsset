@@ -1,1 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="NF41412006AD11E980009C5E3577F3CD" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/WebUI_prj_1001_RC_1/Tests/VP_1(2).testsuite"/><test path="/WebUI_prj_1001_RC_1/Compound Tests/CompTest.testsuite"/></tests><browsers><browser name="chrome"/><browser name="firefox"/></browsers></group></inits>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="NF41412006AD11E980009C5E3577F3CD" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/WebUI_prj_1001_RC_1/Tests/VP_1(2).testsuite"/><test path="/WebUI_prj_1001_RC_1/Compound Tests/CompTest.testsuite"/></tests><browsers><browser name="chrome"/><browser name="firefox"/></browsers>
+	<locations>
+		<location host="10.115.83.179"></location></locations></group></inits>
