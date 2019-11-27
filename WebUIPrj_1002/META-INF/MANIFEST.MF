@@ -40,6 +40,7 @@ Require-Bundle: com.ibm.rational.test.lt.kernel,
   com.ibm.rational.test.rtw.webgui.selenium,
   com.ibm.rational.test.rtw.webgui.playback.selenium,
   com.ibm.rational.test.rtw.webgui.playback,
-  com.ibm.rational.test.rtw.webgui.execution
+  com.ibm.rational.test.rtw.webgui.execution,
+  com.ibm.rational.test.lt.execution.http
 Automatic-Module-Name: WebUIPrj_1002
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
