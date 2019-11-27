@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: WebUIPrj_1002
-Bundle-SymbolicName: WebUIPrj_1002
+Bundle-SymbolicName: WEBUIPrj_1002
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: com.ibm.rational.test.lt.kernel,
   com.ibm.rational.test.lt.datatransform.adapters,
