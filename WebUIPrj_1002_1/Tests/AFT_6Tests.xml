@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="N8B8DC40074111EA8C95AE91286D0C0F" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/WebUIPrj_1002_1/Tests/googlSearch(2).testsuite"/><test path="/WebUIPrj_1002_1/Tests/googlSearch(3).testsuite"/><test path="/WebUIPrj_1002_1/Tests/googlSearch(4).testsuite"/><test path="/WebUIPrj_1002_1/Tests/googlSearch(5).testsuite"/><test path="/WebUIPrj_1002_1/Tests/googlSearch.testsuite"/><test path="/WebUIPrj_1002_1/Tests/googlSearch2.testsuite"/></tests><browsers><browser name="firefox"/></browsers>
 	<locations>
-		<location host="10.115.83203"></location></locations></group></inits>
+		<location host="10.115.83.203"></location></locations></group></inits>
