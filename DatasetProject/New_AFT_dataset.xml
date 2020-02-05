@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="N70EC9F00A3F11E9A6D7C2CAD1814438" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/DatasetProject/Tests/SignIN_pass.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>

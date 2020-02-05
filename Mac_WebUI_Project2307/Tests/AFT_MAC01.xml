@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="NFB629100DFB11E99764C88FFC2EDBE6" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/Mac_WebUI_Project2307/Tests/Chrome2.testsuite"/><test path="/Mac_WebUI_Project2307/Tests/Chrome123.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>
