@@ -49,7 +49,7 @@ public class JavaApp extends JavaAppHelper
 		// 
 		ok2().click();
 		
-		// Frame: ClassicsCD
+		
 		classicsCD(ANY,MAY_EXIT).close();
 	}
 }
