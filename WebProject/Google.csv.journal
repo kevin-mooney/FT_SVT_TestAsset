@@ -1,0 +1,1 @@
+{"description":"Added columns(s) [Column1]","changeName":"ADD_COLUMNS","changeNum":1,"payLoad":{"JSON_DATA":"{\"columnNames\":[\"Column1\"],\"columnNumbers\":[1],\"valueLists\":[[]]}"}}{"description":"Added 1 row(s) starting at row 0","changeName":"ADD_ROWS","changeNum":2,"payLoad":{"JSON_DATA":"{\"index\":0,\"rowContent\":[[\"\"]]}"}}

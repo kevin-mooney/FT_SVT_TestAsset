@@ -1,0 +1,4 @@
+DefaultFolders/com.ibm.rational.test.lt.datapool.category=/Datasets
+DefaultFolders/com.ibm.rational.test.lt.execution.results.category=/Results
+DefaultFolders/com.ibm.rational.test.lt.scenario.editor.compoundTest=/Compound Tests
+eclipse.preferences.version=1
