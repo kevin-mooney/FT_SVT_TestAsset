@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><TestData L=".TestData"><Data L=".MaskedPropSet"><MP L=".MProp"><Prop>description</Prop><Val>Object Properties</Val><Mask>true</Mask></MP><MP L=".MProp"><Prop>type</Prop><Val>standardProperties</Val><Mask>true</Mask></MP><MP L=".MProp"><Prop>data</Prop><Val L=".MaskedPropSet"><MP L=".MProp"><Prop>.bounds</Prop><Val L=".Rect"><X>872</X><Y>87</Y><W>482</W><H>600</H></Val><Mask>true</Mask></MP><MP L=".MProp"><Prop>.class</Prop><Val>Html.FORM</Val><Mask>true</Mask></MP><MP L=".MProp"><Prop>.className</Prop><Val></Val><Mask>true</Mask></MP><MP L=".MProp"><Prop>.contentText</Prop><Val>
+     
+     One-line
+    text box
+    
+    Scrolling text box
+     Check
+    Box
+    Sex:  Male Radio
+    Button 
+    female Radio Button 
+     Submit
+    Button
+     Add Button
+     Delete
+    Button 
+    Change Button  Cancel Button 
+     Reset
+    Button
+    
+        Under $25,000 
+        $25,001 to $50,000 
+        $50,001 and higher 
+     Drop-down menu 
+        Under $25,000 
+        $25,001 to $50,000 
+        $50,001 and higher 
+     Multi-line list 
+        Under $25,000 
+        $25,001 to $50,000 
+        $50,001 and higher 
+     Scrolling list 
+     Push Button
+     Image button
+</Val><Mask>true</Mask></MP><MP L=".MProp"><Prop>.disabled</Prop><Val Z="false"/><Mask>true</Mask></MP><MP L=".MProp"><Prop>.hasFocus</Prop><Val Z="false"/><Mask>true</Mask></MP><MP L=".MProp"><Prop>.id</Prop><Val></Val><Mask>true</Mask></MP><MP L=".MProp"><Prop>.name</Prop><Val>HTML Form sampler</Val><Mask>true</Mask></MP><MP L=".MProp"><Prop>.offsetHeight</Prop><Val I="601"/><Mask>true</Mask></MP><MP L=".MProp"><Prop>.offsetLeft</Prop><Val I="8"/><Mask>true</Mask></MP><MP L=".MProp"><Prop>.offsetTop</Prop><Val I="16"/><Mask>true</Mask></MP><MP L=".MProp"><Prop>.offsetWidth</Prop><Val I="482"/><Mask>true</Mask></MP><MP L=".MProp"><Prop>.screenLeft</Prop><Val I="872"/><Mask>true</Mask></MP><MP L=".MProp"><Prop>.screenTop</Prop><Val I="87"/><Mask>true</Mask></MP><MP L=".MProp"><Prop>.tag</Prop><Val>FORM</Val><Mask>true</Mask></MP><MP L=".MProp"><Prop>.text</Prop><Val> One-line text box Scrolling text box Check Box Sex: Male Radio Button female Radio Button Submit Button Add Button Delete Button Change Button Cancel Button Reset Button Under $25,000 $25,001 to $50,000 $50,001 and higher Drop-down menu Under $25,000 $25,001 to $50,000 $50,001 and higher Multi-line list Under $25,000 $25,001 to $50,000 $50,001 and higher Scrolling list Push Button Image button </Val><Mask>false</Mask></MP><MP L=".MProp"><Prop>.title</Prop><Val></Val><Mask>true</Mask></MP></Val><Mask>false</Mask></MP><MP L=".MProp"><Prop>name</Prop><Val>HTMLFormSampler_standard</Val><Mask>true</Mask></MP></Data><FtVerificationPointMetaData L=".PropSet"><Prop L=".Prop"><Prop>FTVerificationPointType</Prop><Val>STATIC</Val></Prop></FtVerificationPointMetaData></TestData>

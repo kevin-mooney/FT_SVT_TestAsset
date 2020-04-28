@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><TestDataText L=".TestDataText"><Data L=".MaskedPropSet"><MP L=".MProp"><Prop>data</Prop><Val>Typing into Notepad to record a test&#13;
+&#13;
+this i a line that will containg many characters - 123 456 &amp;*( asdfgh l;;jjjjjjjjlkkkkkkkkkkkkkkkkkkkkkkkkdfdsfkhkjhkjhkjhkjhkjhkjhkjhkjhkjhkjhkjh87648767463876ghjgdjghjhjgjfgdhjgdfhjgfhjgdfhjgdfgshjg787487857857&#13;
+&#13;
+dhskhfkjhdsgkjhdf&#13;
+1234&#13;
+567890&#13;
+&#13;
+0098877&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+Latest test update&#13;
+&#13;
+Test update</Val><Mask>false</Mask></MP><MP L=".MProp"><Prop>ignoreCase</Prop><Val Z="false"/><Mask>true</Mask></MP><MP L=".MProp"><Prop>whiteSpaceMode</Prop><Val L=".TextWhiteSpace"><Mode>0</Mode></Val><Mask>true</Mask></MP><MP L=".MProp"><Prop>description</Prop><Val>text</Val><Mask>true</Mask></MP><MP L=".MProp"><Prop>type</Prop><Val>text</Val><Mask>true</Mask></MP><MP L=".MProp"><Prop>name</Prop><Val>TypingIntoNotepadToRecordATest_text_2</Val><Mask>true</Mask></MP></Data><FtVerificationPointMetaData L=".PropSet"><Prop L=".Prop"><Prop>FTVerificationPointType</Prop><Val>STATIC</Val></Prop></FtVerificationPointMetaData></TestDataText>
