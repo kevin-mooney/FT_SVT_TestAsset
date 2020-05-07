@@ -1,0 +1,42 @@
+{
+    "description": {
+        "actual": "Label visible text",
+        "expected": "Label visible text",
+        "match": true
+    },
+    "diff": [
+        {
+            "actual": "Your order has been received!  Your order number is: ",
+            "expected": "Your order has been received!  Your order number is: ",
+            "match": true,
+            "name": null
+        },
+        {
+            "actual": "54",
+            "expected": "\\d",
+            "match": false,
+            "name": null
+        },
+        {
+            "actual": ".",
+            "expected": ".",
+            "match": true,
+            "name": null
+        }
+    ],
+    "ignoreCase": {
+        "actual": "false",
+        "expected": "false",
+        "match": true
+    },
+    "type": {
+        "actual": "text",
+        "expected": "text",
+        "match": true
+    },
+    "whiteSpaceMode": {
+        "actual": "Use All Characters",
+        "expected": "Use All Characters",
+        "match": true
+    }
+}

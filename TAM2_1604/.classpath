@@ -93,9 +93,9 @@
 	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/IBM_101/Report_2004/zippedExtLibs/x64_geckodriver_0_21.zip"/>
 	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/IBM_101/Report_2004/zippedExtLibs/x64_geckodriver.zip"/>
 	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/IBM_101/Report_2004/zippedExtLibs/x64_IEDriverServer.zip"/>
-	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.900.v20200428_0108/libraries/httpclient-4.5.6.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.900.v20200428_0108/libraries/httpcore-4.4.10.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.900.v20200428_0108/libraries/httpmime-4.5.6.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.900.v20200428_0108/libraries/slf4j-simple-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.900.v20200427_1926/libraries/httpclient-4.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.900.v20200427_1926/libraries/httpcore-4.4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.900.v20200427_1926/libraries/httpmime-4.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.900.v20200427_1926/libraries/slf4j-simple-1.6.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
