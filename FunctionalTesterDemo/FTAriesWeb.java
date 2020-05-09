@@ -30,9 +30,9 @@ public class FTAriesWeb extends FTAriesWebHelper {
 	public void testMain(Object[] args) {
 		// TODO Insert code here
 
-		startBrowser("Chrome", "http://civcez229.nonprod.hclpnp.com/aries-web/iframe/aries-webContestPageiframe.html");
+		startBrowser("Firefox", "http://civcez229.nonprod.hclpnp.com/aries-web/iframe/aries-webContestPageiframe.html");
 
-		browser_htmlBrowser().maximize();
+	//	browser_htmlBrowser().maximize();
 
 		// sample find to locate a text field
 

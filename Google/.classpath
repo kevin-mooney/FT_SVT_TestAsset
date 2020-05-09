@@ -3,5 +3,10 @@
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.900.v20200506_1927/libraries/httpclient-4.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.900.v20200506_1927/libraries/httpcore-4.4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.900.v20200506_1927/libraries/httpmime-4.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.900.v20200506_1927/libraries/slf4j-simple-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vatsalas/IBM/rationalsdp/workspace0705a/zippedExtLibs/RPTKHelpers.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
