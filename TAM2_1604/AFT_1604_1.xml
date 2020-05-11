@@ -1,1 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="N5428A80007311EAB646D3CE96DD63A3" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/TAM2_1604/Tests/Ch1_nodataset.testsuite"/></tests><browsers><browser name="firefox"/></browsers></group></inits>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><inits id="N5428A80007311EAB646D3CE96DD63A3" type="com.ibm.rational.test.ft.aftsuite"><group><tests><test path="/TAM2_1604/Tests/Ch1_nodataset.testsuite"/><test
+		path="/TAM2_1604/Tests/Ch1_withDataset.testsuite">
+</test></tests><browsers><browser name="firefox"/></browsers></group></inits>
