@@ -29,7 +29,7 @@ public class FT_HTML extends FT_HTMLHelper
 	 */
 	public void testMain(Object[] args) 
 	{
-		startBrowser("Firefox","https://www.google.com");
+		startBrowser("Mozilla Firefox","https://www.google.com");
 		
 		// HTML Browser
 		// Document: Google: https://www.google.com/
