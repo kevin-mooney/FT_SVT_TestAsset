@@ -32,7 +32,7 @@ public class FTAriesNavigate extends FTAriesNavigateHelper
 	
 	{
 		//startApp("http://civcez229.nonprod.hclpnp.com/aries-web/index.html");
-		//startBrowser("Chrome", "http://civcez229.nonprod.hclpnp.com/aries-web/index.html");
+		startBrowser("Chrome", "http://civcez229.nonprod.hclpnp.com/aries-web/index.html");
 		// HTML Browser
 		// Document: Aries-web Home Page: http://civcez229.nonprod.hclpnp.com/aries-web/index.html
 		link_sampleHTMLSites().click();
