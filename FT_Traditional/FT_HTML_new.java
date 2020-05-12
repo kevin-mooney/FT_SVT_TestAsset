@@ -1,5 +1,5 @@
 
-import resources.FT_HTMLHelper;
+import resources.FT_HTML_newHelper;
 import com.rational.test.ft.*;
 import com.rational.test.ft.object.interfaces.*;
 import com.rational.test.ft.object.interfaces.SAP.*;
@@ -16,7 +16,7 @@ import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
  * Description   : Functional Test Script
  * @author jhansi.m
  */
-public class FT_HTML extends FT_HTMLHelper
+public class FT_HTML_new extends FT_HTML_newHelper
 {
 	/**
 	 * Script Name   : <b>FT_HTML</b>

@@ -19,15 +19,15 @@ import com.rational.test.ft.script.*;
 import com.rational.test.ft.vp.IFtVerificationPoint;
 import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
 /**
- * Script Name   : <b>FT_HTML</b><br>
- * Generated     : <b>2020/05/12 2:45:04 PM</b><br>
+ * Script Name   : <b>FT_HTML_new</b><br>
+ * Generated     : <b>2020/05/12 6:04:08 PM</b><br>
  * Description   : Helper class for script<br>
  * Original Host : Windows 10 amd64 10.0 <br>
  * 
  * @since  May 12, 2020
  * @author jhansi.m
  */
-public abstract class FT_HTMLHelper extends RationalTestScript
+public abstract class FT_HTML_newHelper extends RationalTestScript
 {
 	/**
 	 * htmlBrowser: with default state.
@@ -54,8 +54,8 @@ public abstract class FT_HTMLHelper extends RationalTestScript
 	
 	/**
 	 * Google: with default state.
-	 *		.class : Html.HtmlDocument
-	 * 		.title : Google
+	 *		.title : Google
+	 * 		.class : Html.HtmlDocument
 	 * 		.url : https://www.google.com/
 	 */
 	protected DocumentTestObject document_google() 
@@ -65,8 +65,8 @@ public abstract class FT_HTMLHelper extends RationalTestScript
 	}
 	/**
 	 * Google: with specific test context and state.
-	 *		.class : Html.HtmlDocument
-	 * 		.title : Google
+	 *		.title : Google
+	 * 		.class : Html.HtmlDocument
 	 * 		.url : https://www.google.com/
 	 */
 	protected DocumentTestObject document_google(TestObject anchor, long flags) 
@@ -77,8 +77,8 @@ public abstract class FT_HTMLHelper extends RationalTestScript
 	
 	/**
 	 * testGoogleSearch: with default state.
-	 *		.class : Html.HtmlDocument
-	 * 		.title : test - Google Search
+	 *		.title : test - Google Search
+	 * 		.class : Html.HtmlDocument
 	 * 		.url : https://www.google.com/search?source=hp&ei=vWm6XobUO8_fz7sPsvaBoA0&q=test&oq=tes ...
 	 */
 	protected DocumentTestObject document_testGoogleSearch() 
@@ -88,8 +88,8 @@ public abstract class FT_HTMLHelper extends RationalTestScript
 	}
 	/**
 	 * testGoogleSearch: with specific test context and state.
-	 *		.class : Html.HtmlDocument
-	 * 		.title : test - Google Search
+	 *		.title : test - Google Search
+	 * 		.class : Html.HtmlDocument
 	 * 		.url : https://www.google.com/search?source=hp&ei=vWm6XobUO8_fz7sPsvaBoA0&q=test&oq=tes ...
 	 */
 	protected DocumentTestObject document_testGoogleSearch(TestObject anchor, long flags) 
@@ -102,8 +102,8 @@ public abstract class FT_HTMLHelper extends RationalTestScript
 	 * Search: with default state.
 	 *		.id : 
 	 * 		.type : text
-	 * 		.class : Html.INPUT.text
 	 * 		.title : Search
+	 * 		.class : Html.INPUT.text
 	 * 		.name : q
 	 * 		.classIndex : 0
 	 */
@@ -116,8 +116,8 @@ public abstract class FT_HTMLHelper extends RationalTestScript
 	 * Search: with specific test context and state.
 	 *		.id : 
 	 * 		.type : text
-	 * 		.class : Html.INPUT.text
 	 * 		.title : Search
+	 * 		.class : Html.INPUT.text
 	 * 		.name : q
 	 * 		.classIndex : 0
 	 */
@@ -129,9 +129,9 @@ public abstract class FT_HTMLHelper extends RationalTestScript
 	
 	
 
-	protected FT_HTMLHelper()
+	protected FT_HTML_newHelper()
 	{
-		setScriptName("FT_HTML");
+		setScriptName("FT_HTML_new");
 	}
 	
 }
