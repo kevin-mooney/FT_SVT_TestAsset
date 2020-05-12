@@ -31,7 +31,7 @@ public class StartApp_AriesWeb extends StartApp_AriesWebHelper
 	{
 		// TODO Insert code here
 		
-		startBrowser("Chrome", "http://civcez229.nonprod.hclpnp.com/aries-web/index.html");
+		startBrowser("Firefox", "http://civcez229.nonprod.hclpnp.com/aries-web/index.html");
 		callScript("FTAriesNavigate");
 		callScript("CompleteForm");
 		callScript("ButtonsInForm");

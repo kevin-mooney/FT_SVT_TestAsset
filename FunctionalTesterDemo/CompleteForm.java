@@ -34,13 +34,20 @@ public class CompleteForm extends CompleteFormHelper
 		
 		// HTML Browser
 		// Document: Contest page: http://civcez229.nonprod.hclpnp.com/aries-web/samples/visionofficeproducts/contest.htm
-		table_htmlTable_0().performTest(HtmlTable_0_standardVP());
+	//	table_htmlTable_0().performTest(HtmlTable_0_standardVP());
 		text_name().setText("Vatsala");
 		text_address().setText("");
 		//text_city().setText();
 		text_email().setText("vatsalaswamy.s@hcl.com");
 		text_state().setText("Karnata");
 		text_zip().setText("577201");
+		
+		// HTML Browser
+		browser_htmlBrowser(document_contestPage(),DEFAULT_FLAGS).click(atPoint(1028,965));
+		// Document: Contest page: http://civcez229.nonprod.hclpnp.com/aries-web/samples/visionofficeproducts/contest.htm
+		document_contestPage().nClick(3, LEFT, atPoint(998,789));
+		// %script:pauseInsertBefore%
+		
 		
 	}
 }
