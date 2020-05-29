@@ -1,0 +1,30 @@
+{
+    "description": {
+        "actual": "Visible Text",
+        "expected": "Visible Text",
+        "match": true
+    },
+    "diff": [
+        {
+            "actual": " Support ",
+            "expected": " Support ",
+            "match": true,
+            "name": "1"
+        }
+    ],
+    "ignoreCase": {
+        "actual": "false",
+        "expected": "false",
+        "match": true
+    },
+    "type": {
+        "actual": "text",
+        "expected": "text",
+        "match": true
+    },
+    "whiteSpaceMode": {
+        "actual": "Use All Characters",
+        "expected": "Use All Characters",
+        "match": true
+    }
+}
