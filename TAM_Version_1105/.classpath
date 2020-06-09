@@ -52,5 +52,6 @@
 	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101/zippedExtLibs/x64_geckodriver_0_21.zip"/>
 	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101/zippedExtLibs/x64_geckodriver.zip"/>
 	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101/zippedExtLibs/x64_IEDriverServer.zip"/>
+	<classpathentry kind="lib" path="C:/temp/sayHelloLibrary.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
