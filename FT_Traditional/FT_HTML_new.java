@@ -38,9 +38,9 @@ public class FT_HTML_new extends FT_HTML_newHelper
 		browser_htmlBrowser(document_google(),DEFAULT_FLAGS).inputKeys("test{ENTER}");
 		browser_htmlBrowser(document_testGoogleSearch(),DEFAULT_FLAGS).close();
 		
-		SayHello  sayHello = new SayHello();
-		
-		logInfo("Message from the Library: " + sayHello.greet("Jhansi" ));
+//		SayHello  sayHello = new SayHello();
+//		
+//		logInfo("Message from the Library: " + sayHello.greet("Jhansi" ));
 	}
 }
 
