@@ -52,6 +52,50 @@
 	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101/zippedExtLibs/x64_geckodriver_0_21.zip"/>
 	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101/zippedExtLibs/x64_geckodriver.zip"/>
 	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101/zippedExtLibs/x64_IEDriverServer.zip"/>
-	<classpathentry kind="lib" path="C:/temp/sayHelloLibrary.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/RPTKHelpers.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/mac_msedgedriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/msedgedriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/operadriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_operadriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/mac_operadriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/chromedriver_2_27.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/chromedriver_2_29.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/chromedriver_2_34.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/chromedriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/geckodriver_0_15.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/geckodriver_0_18.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/geckodriver_0_21.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/geckodriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/IEDriverServer.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_chromedriver_2_27.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_chromedriver_2_29.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_chromedriver_2_34.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_geckodriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_geckodriver_0_15.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_geckodriver_0_18.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_geckodriver_0_21.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_x64_chromedriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_x64_chromedriver_2_27.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_x64_chromedriver_2_29.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_x64_chromedriver_2_34.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_x64_geckodriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_x64_geckodriver_0_15.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_x64_geckodriver_0_18.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/linux_x64_geckodriver_0_21.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/mac_chromedriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/mac_chromedriver_2_27.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/mac_chromedriver_2_29.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/mac_chromedriver_2_34.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/mac_geckodriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/mac_geckodriver_0_15.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/mac_geckodriver_0_18.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/mac_geckodriver_0_21.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/webuiplaybackextension-linux-jpm.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/webuiplaybackextension-windows-jpm.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/x64_geckodriver_0_15.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/x64_geckodriver_0_18.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/x64_geckodriver_0_21.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/x64_geckodriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/jhansi.m.NONPROD/IBM/rationalsdp/RTAS_101_final1/zippedExtLibs/x64_IEDriverServer.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
